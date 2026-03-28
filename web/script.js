@@ -1,6 +1,6 @@
 let allData = [];
 
-fetch("../movies.json")
+fetch("movies.json")
   .then(res => res.json())
   .then(data => {
       allData = data;
